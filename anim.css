@@ -1,0 +1,108 @@
+body.gradient1 {
+    animation-name: gradient1;
+    animation-duration: .8s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gradient1 {
+    from {
+        background-size: 100% 100%;
+        background-position: 0% 50%;
+    }
+    to {
+        background-size: 300% 300%;
+        background-position: 0% 100%;
+    }
+}
+
+/* I didn't get to do the animation of the skyblue expanding between the tomato and rgb(255, 148, 61) color, if you know 
+how to do that, PLS HELP ME I CAN'T TAKE IT ANYMORE FAIL, hope you could help me, thanks =) */
+
+/*background: linear-gradient(to right, tomato, skyblue 10%, skyblue 90%, rgb(255, 148, 61) 100%); (that code must be used to do the .gradient2 but
+if you have a better use it (obviously)*/
+
+/* I didn't get to do the animation of the skyblue expanding between the tomato and rgb(255, 148, 61) color, if you know 
+how to do that, PLS HELP ME I CAN'T TAKE IT ANYMORE FAIL, hope you could help me, thanks =) */
+
+body.gradient3 {
+    animation-name: gradient3;
+    animation-duration: .8s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gradient3 {
+    from {
+        background-size: 100% 100%;
+        background-position: 50% 0%;
+    }
+    to {
+        background-size: 300% 300%;
+        background-position: 100% 100%;
+    }
+}
+
+body.exit1 {
+    animation-name: exit1;
+    animation-duration: .8s;
+    animation-timing-function: ease;
+}
+@keyframes exit1 {
+    from {
+        background-size: 300% 300%;
+        background-position: 0% 100%;
+    }
+    to {
+        background-size: 100% 100%;
+        background-position: 0% 50%;
+    }
+}
+
+/* I didn't get to do the animation of the skyblue expanding between the tomato and rgb(255, 148, 61) color, if you know 
+how to do that, PLS HELP ME I CAN'T TAKE IT ANYMORE FAIL, hope you could help me, thanks =) */
+
+body.exit3 {
+    animation-name: exit3;
+    animation-duration: .8s;
+    animation-timing-function: ease;
+}
+
+@keyframes exit3 {
+    from {
+        background-size: 300% 300%;
+        background-position: 100% 100%;
+    }
+    to {
+        background-size: 100% 100%;
+        background-position: 50% 0%;
+    }
+}
+
+input.zoom {
+    transition: all .8s;
+}
+
+.zoom:hover {
+    height: 480px;
+    margin-right: 70px;
+}
+
+input.zoom2 {
+    transition: all 0.8s;
+}
+
+.zoom2:hover {
+    width: 480px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+input.zoom3 {
+    transition: all .8s;
+}
+
+.zoom3:hover {
+    margin-left: 70px;
+    height: 480px;
+}
